@@ -1,0 +1,7 @@
+{
+    "liveSassCompile.settings.autoprefix": [],
+    "liveSassCompile.settings.excludeList": [
+        "/**/styles/modules/**",
+        "/.vscode/**"
+    ]
+}
