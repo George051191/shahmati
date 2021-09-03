@@ -1,3 +1,9 @@
+@import "../vendor/normalize.css";
+@import "../vendor/font.css";
 @import "./modules/variables.scss";
 @import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/content/content.scss";
+@import "./modules/blocks/page/page.scss";
 @import "./modules/mixins.scss";
+@import "./modules/blocks/intro/intro.scss";
+@import "./modules/blocks/team/team.scss";

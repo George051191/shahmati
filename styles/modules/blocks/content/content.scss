@@ -1,0 +1,6 @@
+.content {
+    max-width: $screen-desktop;
+    min-height: $screen-mobile;
+    display: flex;
+    flex-direction: column;
+}

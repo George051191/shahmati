@@ -1,1 +1,264 @@
-/*# sourceMappingURL=style.css.map */
+@import "../vendor/normalize.css";
+@import "../vendor/font.css";
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  min-width: 320px;
+}
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header__logo {
+  cursor: pointer;
+  width: 38px;
+  height: 54px;
+  background-image: url(../../../../images/Group340.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header__conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__link {
+  display: flex;
+  text-decoration: none;
+  width: 152px;
+  height: 17px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+.header__direct {
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.01em;
+  color: white;
+  align-self: center;
+  margin: 0;
+}
+.header__direct-image {
+  width: 10px;
+  height: 12px;
+  align-self: center;
+}
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #009465;
+  border-radius: 8px;
+  width: 218px;
+  height: 48px;
+  cursor: pointer;
+}
+.header__button:hover {
+  background-color: #066c4c;
+}
+.header__button-text {
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: white;
+}
+
+.content {
+  max-width: 1440px;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  background-color: black;
+  max-width: 1440px;
+  min-width: 320px;
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.page__section {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+.page_type_center {
+  margin: auto;
+}
+.page_type_team {
+  padding-left: 160px;
+  padding-right: 160px;
+  box-sizing: border-box;
+}
+
+.intro {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro__conteiner {
+  display: flex;
+  margin-left: 160px;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.intro__label {
+  width: 84px;
+  height: 50px;
+  background-color: #5036e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 45% 45% 0;
+}
+.intro__label-text {
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 90%;
+  color: white;
+  text-transform: uppercase;
+}
+.intro__name {
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 90%;
+  color: white;
+  width: 500px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.intro__paragraph {
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: white;
+  width: 500px;
+  margin-bottom: 182px;
+}
+.intro__image {
+  width: 416px;
+  height: 104px;
+  margin-bottom: 80px;
+}
+.intro__circles {
+  background-image: url(../../../../images/Group332.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 480px;
+  height: 640px;
+  margin-top: 70px;
+}
+
+.team {
+  width: 100%;
+  background-color: #5036e6;
+  display: flex;
+  flex-direction: column;
+}
+.team__title {
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 90%;
+  color: white;
+  width: 1120px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.team__subtitle {
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: white;
+  width: 500px;
+  margin-top: 0;
+  margin-bottom: 110px;
+}
+.team__slider {
+  display: flex;
+  max-width: 1120px;
+  min-width: 280px;
+  width: 100%;
+}
+.team__slider-items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.team__slider-item {
+  display: flex;
+  max-width: 320px;
+  min-width: 280px;
+  flex-direction: column;
+}
+.team__photo {
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.team__photo-name {
+  margin: 0 0 10px 0;
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  color: white;
+}
+.team__photo-info {
+  margin: 0;
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: white;
+}
+.team__dots {
+  display: flex;
+  width: 44px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.team__dot {
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+.team__dot_active {
+  background-image: url(../../../../images/Ellipse16.svg);
+  width: 8px;
+  height: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */
