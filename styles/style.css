@@ -201,6 +201,7 @@
   max-width: 1120px;
   min-width: 280px;
   width: 100%;
+  margin-bottom: 80px;
 }
 .team__slider-items {
   list-style: none;
@@ -240,7 +241,7 @@
   color: white;
 }
 .team__dots {
-  display: flex;
+  display: none;
   width: 44px;
   justify-content: space-between;
   margin-top: 30px;
@@ -261,4 +262,66 @@
   height: 8px;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.wish {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: -3px;
+  background-color: #5036e6;
+}
+.wish__circles {
+  display: flex;
+  flex-direction: row;
+  width: 660px;
+  height: 440px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 100px;
+}
+.wish__circle-piece {
+  background-image: url(../../../../images/Vectorcircle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 218px;
+  height: 439px;
+}
+.wish__circle {
+  background-image: url(../../../../images/Groupcircle1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 439px;
+  width: 438px;
+}
+.wish__conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 160px;
+}
+.wish__question {
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 90%;
+  color: white;
+  width: 520px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.wish__advice {
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: white;
+  width: 520px;
+  margin-top: 0;
+  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */

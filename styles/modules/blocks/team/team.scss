@@ -20,6 +20,7 @@
         max-width: 1120px;
         min-width: 280px;
         width: 100%;
+        margin-bottom: 80px;
     }
     &__slider-items {
         list-style: none;
@@ -59,7 +60,7 @@
         color: $text-color;
     }
     &__dots {
-        display: flex;
+        display: none;
         width: 44px;
         justify-content: space-between;
         margin-top: 30px;
