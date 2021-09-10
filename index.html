@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Правильные шахматы</title>
 </head>
@@ -36,22 +37,22 @@
             </div>
             <div class="intro__circles"></div>
         </section>
-        <section class="team page_type_team">
+        <section class="team">
             <h2 class="team__title">Наша команда</h2>
             <p class="team__subtitle">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно удовольствие! </p>
-            <div class="team__slider swiper">
-                <ul class="team__slider-items swiper-wrapper">
-                    <li class="team__slider-item swiper-slide">
+            <div class="team__slider">
+                <ul class="team__slider-items">
+                    <li class="team__slider-item">
                         <img src="./images/Rectangle309.png" alt="фото участника" class="team__photo">
                         <figure class="team__photo-name">Андрей</figure>
                         <figure class="team__photo-info">Шахматист, писатель.</figure>
                     </li>
-                    <li class="team__slider-item swiper-slide">
+                    <li class="team__slider-item">
                         <img src="./images/Rectangle 310 (1).png" alt="фото участника" class="team__photo">
                         <figure class="team__photo-name">Никита</figure>
                         <figure class="team__photo-info">Шахматист, кулинар.</figure>
                     </li>
-                    <li class="team__slider-item swiper-slide">
+                    <li class="team__slider-item">
                         <img src="./images/Rectangle311.png" alt="фото участника" class="team__photo">
                         <figure class="team__photo-name">Алексей</figure>
                         <figure class="team__photo-info">Шахматист, геймер.</figure>
@@ -74,7 +75,51 @@
                 <p class="wish__advice">Свяжись с нами и мы обсудим все детали присоеденения к команде.</p>
             </div>
         </section>
+        <section class="game">
+            <h2 class="game__title">Сражения</h2>
+            <p class="game__subtitle">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки — сыграйте с нашими шахматистами.</p>
+            <div class="game__slider">
+                <ul class="game__slider-items">
+                    <li class="game__slider-item">
+                        <img src="./images/game1.png" alt="фото игры" class="game__foto">
+                    </li>
+                    <li class="game__slider-item">
+                        <img src="./images/game2.png" alt="фото игры" class="game__foto">
+                    </li>
+                    <li class="game__slider-item">
+                        <img src="./images/game3.png" alt="фото игры" class="game__foto">
+                    </li>
+                </ul>
+            </div>
+            <div class="game__figures">
+                <div class="game__circle"> </div>
+                <div class="game__chests"></div>
+            </div>
+        </section>
     </main>
+    <!--  <footer class="footer">
+        <a href="#" class="footer__logo"></a>
+        <button type="submit" aria-label="зарегестрироваться" class="footer__button">
+            <p class="footer__button-text">Зарегестрироваться</p>
+        </button>
+        <p class="footer__advertisement">Шахматный клуб в Москве.</p>
+        <p class="footer__copyright">&copy Георгий Александрович</p>
+    </footer>
+    <div class="popup">
+        <div class="popup__conteiner">
+            <form action="#" class="popup__user-info">
+                <a href="#" class="popup__logo"></a>
+                <h3 class="popup__name">Регистрация</h3>
+                <fieldset class="popup__element">
+                    <input type="text" name="username" required placeholder="Имя" class="popup__user-name">
+                    <input type="text" name="usermail" required placeholder="Email" class="popup__user-mail">
+                </fieldset>
+                <button type="submit" aria-label="зарегестрироваться" class="popup__button">
+                    <p class="popup__button-text">Зарегестрироваться</p>
+                </button>
+            </form>
+        </div>
+    </div>-->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
 </body>

@@ -1,5 +1,6 @@
 .page {
     background-color: $color-main;
+    padding-top: 30px;
     max-width: $screen-desktop;
     min-width: $screen-mobile;
     font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
@@ -8,16 +9,7 @@
     -moz-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    &__section {
-        margin-left: 160px;
-        margin-right: 160px;
-    }
     &_type_center {
-        margin: auto;
-    }
-    &_type_team {
-        padding-left: 160px;
-        padding-right: 160px;
-        box-sizing: border-box;
+        margin: 0 auto;
     }
 }

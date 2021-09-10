@@ -1,0 +1,11 @@
+.game__chests {
+    background-image: url(../../../../../images/gamechests.svg);
+    width: 416px;
+    height: 104px;
+}
+
+@media screen and (max-width: 1250px) {
+    .game__chests {
+        margin-right: 50px;
+    }
+}

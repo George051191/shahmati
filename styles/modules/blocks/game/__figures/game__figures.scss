@@ -1,0 +1,12 @@
+.game__figures {
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1250px) {
+    .game__figures {
+        width: 100%;
+    }
+}

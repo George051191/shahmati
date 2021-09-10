@@ -1,0 +1,22 @@
+.header__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: $object-color;
+    border-radius: 8px;
+    width: 218px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.header__button:hover {
+    background-color: rgba(6, 108, 76, 1);
+}
+
+@media screen and (max-width: 1065px) {
+    .header__button {
+        width: 184px;
+        height: 44px;
+    }
+}

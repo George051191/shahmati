@@ -1,0 +1,15 @@
+.team__subtitle {
+    @include secondary-text;
+    width: 500px;
+    margin-top: 0;
+    margin-bottom: 110px;
+    align-self: flex-start;
+    margin-left: 160px;
+}
+
+@media screen and (max-width: 1439px) {
+    .team__subtitle {
+        margin-left: 50px;
+        margin-bottom: 140px;
+    }
+}

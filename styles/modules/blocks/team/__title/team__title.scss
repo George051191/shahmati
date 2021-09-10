@@ -1,0 +1,15 @@
+.team__title {
+    @include main-text;
+    width: 1120px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+    .team__title {
+        margin-top: 50px;
+        align-self: flex-start;
+        margin-left: 50px;
+        width: 668px;
+    }
+}

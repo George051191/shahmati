@@ -1,0 +1,13 @@
+.intro__conteiner {
+    display: flex;
+    margin-left: 160px;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 814px) {
+    .intro__conteiner {
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+}

@@ -6,46 +6,4 @@
     width: 100%;
     margin-top: -3px;
     background-color: $color-secondary;
-    &__circles {
-        display: flex;
-        flex-direction: row;
-        width: 660px;
-        height: 440px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        margin-right: 100px;
-    }
-    &__circle-piece {
-        background-image: url(../../../../images/Vectorcircle.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 218px;
-        height: 439px;
-    }
-    &__circle {
-        background-image: url(../../../../images/Groupcircle1.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 439px;
-        width: 438px;
-    }
-    &__conteiner {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-right: 160px;
-    }
-    &__question {
-        @include main-text;
-        width: 520px;
-        margin-top: 0;
-        margin-bottom: 40px;
-    }
-    &__advice {
-        @include secondary-text;
-        width: 520px;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
 }

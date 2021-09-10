@@ -1,0 +1,19 @@
+.wish__circles {
+    display: flex;
+    flex-direction: row;
+    width: 660px;
+    height: 440px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 1439px) {
+    .wish__circles {
+        margin-right: 60px;
+        width: 180px;
+        height: 360px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
