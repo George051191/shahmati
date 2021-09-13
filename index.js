@@ -73,9 +73,9 @@ const mySwier = new Swiper('.game__slider', {
     //spaceBetween: 80,
     breakpoints: {
         320: {
-            slidesPerView: 2
+            slidesPerView: 1
         },
-        768: {
+        601: {
             spaceBetween: 28,
             slidesPerView: 2
         },
