@@ -9,6 +9,13 @@
     height: 48px;
     cursor: pointer;
     margin-bottom: 60px;
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
 }
 
 .footer__button:hover {
@@ -20,5 +27,6 @@
         width: 140px;
         height: 30px;
         margin-bottom: 40px;
+        font-size: 10px;
     }
 }

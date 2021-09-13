@@ -9,6 +9,13 @@
     height: 48px;
     cursor: pointer;
     margin-top: 253px;
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
 }
 
 .popup__button:hover {
@@ -20,5 +27,6 @@
         margin-top: 143px;
         width: 140px;
         height: 30px;
+        font-size: 10px;
     }
 }

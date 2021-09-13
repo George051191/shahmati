@@ -28,6 +28,7 @@ regPopup.addEventListener('submit', function(evt) {
 
 //Свайпер для блока team
 const swiper = new Swiper('.team__slider', {
+    setWrapperSize: true,
     wrapperClass: 'team__slider-items',
     slideClass: 'team__slider-item',
     slidesPerView: 1,
@@ -41,12 +42,12 @@ const swiper = new Swiper('.team__slider', {
             slidesPerView: 2
         },
         1050: {
-            slidesPerView: 2,
-            // spaceBetween: 28
+            slidesPerView: 3,
+
         },
         1250: {
             slidesPerView: 3,
-            //  spaceBetween: 80
+
         },
         1440: {
             slidesPerView: 3,
@@ -65,25 +66,26 @@ const swiper = new Swiper('.team__slider', {
 });
 //Свайпер для блока game
 const mySwier = new Swiper('.game__slider', {
+    setWrapperSize: true,
     wrapperClass: 'game__slider-items',
     slideClass: 'game__slider-item',
-    slidesPerView: 3,
-    spaceBetween: 80,
+    slidesPerView: 1,
+    //spaceBetween: 80,
     breakpoints: {
         320: {
-            slidesPerView: 1
+            slidesPerView: 2
         },
         768: {
             spaceBetween: 28,
             slidesPerView: 2
         },
         1050: {
-            slidesPerView: 2,
-            spaceBetween: 28
+            slidesPerView: 2
+                // spaceBetween: 28
         },
         1250: {
-            slidesPerView: 3,
-            spaceBetween: 80
+            slidesPerView: 3
+                // spaceBetween: 80
         },
         1440: {
             slidesPerView: 3,

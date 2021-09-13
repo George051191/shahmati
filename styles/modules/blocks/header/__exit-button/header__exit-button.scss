@@ -8,6 +8,13 @@
     width: 218px;
     height: 48px;
     cursor: pointer;
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
 }
 
 .header__exit-button:hover {
@@ -18,6 +25,7 @@
     .header__exit-button {
         width: 184px;
         height: 44px;
+        font-size: 13px;
     }
 }
 
@@ -25,6 +33,7 @@
     .header__exit-button {
         width: 140px;
         height: 30px;
+        font-size: 10px;
     }
 }
 
