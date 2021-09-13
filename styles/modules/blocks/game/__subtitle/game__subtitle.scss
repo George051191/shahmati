@@ -18,3 +18,11 @@
         margin-bottom: 140px;
     }
 }
+
+@media screen and (max-width: 655px) {
+    .game__subtitle {
+        font-size: 12px;
+        margin: 0 20px 60px 20px;
+        width: 280px;
+    }
+}

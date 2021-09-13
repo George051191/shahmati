@@ -6,10 +6,25 @@
     margin: 0;
     justify-content: space-between;
     overflow: hidden;
+    max-width: 1120px;
 }
 
 @media screen and (max-width: 1080px) {
     .team__slider-items {
+        max-width: 1000px;
         margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .team__slider-items {
+        margin-left: 0;
+        max-width: 590px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .team__slider-items {
+        width: 280px;
     }
 }

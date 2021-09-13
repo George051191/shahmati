@@ -6,3 +6,11 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 680px) {
+    .header__logo {
+        width: 26px;
+        height: 36px;
+        background-image: url(../../../../../images/Grouplittle340.svg);
+    }
+}

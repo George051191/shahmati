@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css">
     <title>Правильные шахматы</title>
 </head>
 
@@ -19,8 +19,11 @@
                     <p class="header__direct">Вступайте в клуб</p>
                     <img src="./images/Vector21.svg" alt="стрелка" class="header__direct-image">
                 </a>
-                <button type="submit" aria-label="зарегестрироваться" class="header__button">
+                <button type="submit" aria-label="зарегестрироваться" class="header__button header__button_visible">
                     <p class="header__button-text">Зарегестрироваться</p>
+                </button>
+                <button type="submit" aria-label="кнопка выход" class="header__exit-button">
+                    <p class="header__exit-button-text">Выйти</p>
                 </button>
             </div>
         </div>
@@ -28,8 +31,11 @@
     <main class="content">
         <section class="intro">
             <div class="intro__conteiner">
-                <div class="intro__label">
-                    <p class="intro__label-text">Клуб</p>
+                <div class="intro__small-circles">
+                    <div class="intro__label">
+                        <p class="intro__label-text">Клуб</p>
+                    </div>
+                    <img src="./images/newtwocircles.svg" alt="круги" class="intro__new-circles">
                 </div>
                 <h1 class="intro__name">Правильные шахматы</h1>
                 <p class="intro__paragraph">Приходите к нам, играть в шахматы! Сразитесь классическом поединке, блиц состязании и бою с гройсмейстером.</p>
@@ -59,7 +65,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="team__dots swiper-pagination">
+            <div class="team__dots">
                 <button type="button" class="team__dot team__dot_active"></button>
                 <button type="button" class="team__dot"></button>
                 <button type="button" class="team__dot"></button>
@@ -91,16 +97,24 @@
                     </li>
                 </ul>
             </div>
+            <div class="game__dots">
+                <button type="button" class="game__dot game__dot_active"></button>
+                <button type="button" class="game__dot"></button>
+                <button type="button" class="game__dot"></button>
+            </div>
             <div class="game__figures">
                 <div class="game__circle"> </div>
                 <div class="game__chests"></div>
             </div>
         </section>
     </main>
-    <!--  <footer class="footer">
+    <footer class="footer">
         <a href="#" class="footer__logo"></a>
-        <button type="submit" aria-label="зарегестрироваться" class="footer__button">
+        <button type="submit" aria-label="зарегестрироваться" class="footer__button footer__button_visible ">
             <p class="footer__button-text">Зарегестрироваться</p>
+        </button>
+        <button type="submit" aria-label="кнопка выход" class="footer__exit-button">
+            <p class="footer__exit-button-text">Выйти</p>
         </button>
         <p class="footer__advertisement">Шахматный клуб в Москве.</p>
         <p class="footer__copyright">&copy Георгий Александрович</p>
@@ -119,7 +133,7 @@
                 </button>
             </form>
         </div>
-    </div>-->
+    </div>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
 </body>

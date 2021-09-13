@@ -1,10 +1,39 @@
+const headButton = document.querySelector('.header__button');
+const footerButton = document.querySelector('.footer__button');
+const exitButtonHeader = document.querySelector('.header__exit-button');
+const exitButtonFooter = document.querySelector('.footer__exit-button')
+const regPopup = document.querySelector('.popup');
+const info = document.querySelector('.popup__user-info');
+
+headButton.addEventListener('click', function() {
+    regPopup.classList.add('popup_opened');
+});
+
+footerButton.addEventListener('click', function() {
+    regPopup.classList.add('popup_opened');
+});
+
+regPopup.addEventListener('submit', function(evt) {
+    evt.preventDefault();
+    regPopup.classList.remove('popup_opened');
+    headButton.classList.remove('header__button_visible');
+    exitButtonHeader.classList.add('header__exit-button_visible');
+    footerButton.classList.remove('footer__button_visible')
+    exitButtonFooter.classList.add('footer__exit-button_visible');
+    info.reset();
+});
+
+
+
+
+//Свайпер для блока team
 const swiper = new Swiper('.team__slider', {
     wrapperClass: 'team__slider-items',
     slideClass: 'team__slider-item',
-    slidesPerView: 3,
-    spaceBetween: 80,
+    slidesPerView: 1,
+    // spaceBetween: 28,
     breakpoints: {
-        320: {
+        319: {
             slidesPerView: 1
         },
         768: {
@@ -13,20 +42,19 @@ const swiper = new Swiper('.team__slider', {
         },
         1050: {
             slidesPerView: 2,
-            spaceBetween: 28
+            // spaceBetween: 28
         },
         1250: {
             slidesPerView: 3,
-            spaceBetween: 80
+            //  spaceBetween: 80
         },
         1440: {
             slidesPerView: 3,
             spaceBetween: 80
-
         }
     },
     pagination: {
-        el: '.swiper-pagination',
+        el: '.team__dots',
         type: 'bullets',
         bulletElement: 'button',
         bulletClass: 'team__dot',
@@ -35,7 +63,7 @@ const swiper = new Swiper('.team__slider', {
         bulletActiveClass: 'team__dot_active',
     }
 });
-
+//Свайпер для блока game
 const mySwier = new Swiper('.game__slider', {
     wrapperClass: 'game__slider-items',
     slideClass: 'game__slider-item',
@@ -63,12 +91,12 @@ const mySwier = new Swiper('.game__slider', {
         }
     },
     pagination: {
-        el: '.swiper-pagination',
+        el: '.game__dots',
         type: 'bullets',
         bulletElement: 'button',
-        bulletClass: 'team__dot',
-        currentClass: 'team__dot_active',
+        bulletClass: 'game__dot',
+        currentClass: 'game__dot_active',
         clickable: true,
-        bulletActiveClass: 'team__dot_active',
+        bulletActiveClass: 'game__dot_active',
     }
 });

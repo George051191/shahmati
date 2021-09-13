@@ -4,3 +4,11 @@
     margin-top: 0;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 688px) {
+    .wish__question {
+        margin: 20px;
+        font-size: 40px;
+        width: 280px;
+    }
+}

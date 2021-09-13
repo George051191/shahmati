@@ -14,3 +14,9 @@
         margin-right: 30px;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .header__link {
+        display: none;
+    }
+}

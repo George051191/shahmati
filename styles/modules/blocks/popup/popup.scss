@@ -8,73 +8,7 @@
     justify-content: center;
     align-items: center;
     opacity: 1;
-    visibility: hidden;
     display: flex;
+    visibility: hidden;
     transition: visibility .5s linear, opacity .5s linear;
-    &__conteiner {
-        display: flex;
-        width: 500px;
-        align-self: center;
-    }
-    &__user-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    &__logo {
-        width: 38px;
-        height: 54px;
-        background-position: center;
-        background-repeat: no-repeat;
-        cursor: pointer;
-        background-image: url(../../../../images/Group340.svg);
-        margin-bottom: 50px;
-    }
-    &__name {
-        font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 34px;
-        line-height: 90%;
-        text-align: center;
-        color: $text-color;
-        width: 100%;
-        margin-bottom: 78px;
-        margin-top: 0;
-    }
-    &__element {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        border: 0;
-        padding: 0;
-    }
-    &__button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        background-color: $object-color;
-        border-radius: 8px;
-        width: 218px;
-        height: 48px;
-        cursor: pointer;
-        margin-top: 253px;
-        &:hover {
-            background-color: rgba(6, 108, 76, 1);
-        }
-    }
-    &__button-text {
-        font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 15px;
-        line-height: 18px;
-        letter-spacing: 0.01em;
-        color: $text-color;
-    }
 }

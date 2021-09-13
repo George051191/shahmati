@@ -9,3 +9,10 @@
     text-transform: uppercase;
     color: $text-color;
 }
+
+@media screen and (max-width: 600px) {
+    .team__photo-name {
+        text-align: center;
+        font-size: 18px;
+    }
+}

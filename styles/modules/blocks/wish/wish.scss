@@ -7,3 +7,9 @@
     margin-top: -3px;
     background-color: $color-secondary;
 }
+
+@media screen and (max-width: 760px) {
+    .wish {
+        flex-direction: column-reverse;
+    }
+}

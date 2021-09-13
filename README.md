@@ -1,2 +1,5 @@
-# shahmati
-landing page of chest club
+# Проект лендинга для шахматного клуба
+
+** Выполнен на основе флексбокса, подключении сторонних библиотек для слайдеров, при разработке применен препроцессор scss **
+[МАКЕТ В FIGMA](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings?node-id=2%3A637)
+

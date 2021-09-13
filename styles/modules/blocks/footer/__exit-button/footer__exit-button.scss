@@ -1,0 +1,31 @@
+.footer__exit-button {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    background-color: $object-color;
+    border-radius: 8px;
+    width: 218px;
+    height: 48px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.footer__exit-button:hover {
+    background-color: rgba(6, 108, 76, 1);
+}
+
+@media screen and (max-width: 1065px) {
+    .footer__exit-button {
+        width: 184px;
+        height: 44px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .footer__exit-button {
+        width: 140px;
+        height: 30px;
+    }
+}

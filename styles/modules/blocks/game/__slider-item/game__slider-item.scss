@@ -1,4 +1,9 @@
 .game__slider-item {
     list-style: none;
-    min-height: 320px;
+}
+
+@media screen and (max-width: 767px) {
+    .game__slider-item {
+        width: 280px;
+    }
 }

@@ -7,12 +7,25 @@
 
 @media screen and (max-width: 1155px) {
     .team__slider {
-        width: 1000px;
+        max-width: 1000px;
     }
 }
 
 @media screen and (max-width: 1010px) {
     .team__slider {
-        width: 768px;
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .team__slider {
+        max-width: 590px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .team__slider {
+        width: 280px;
+        margin: 0 auto;
     }
 }

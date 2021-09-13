@@ -13,3 +13,11 @@
         width: 668px;
     }
 }
+
+@media screen and (max-width: 756px) {
+    .team__title {
+        font-size: 40px;
+        width: 280px;
+        margin: 20px;
+    }
+}

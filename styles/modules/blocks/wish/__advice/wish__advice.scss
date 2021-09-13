@@ -4,3 +4,11 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 688px) {
+    .wish__advice {
+        margin: 0 auto;
+        font-size: 12px;
+        width: 280px;
+    }
+}

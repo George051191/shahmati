@@ -3,3 +3,11 @@
     width: 500px;
     margin-bottom: 182px;
 }
+
+@media screen and (max-width: 550px) {
+    .intro__paragraph {
+        width: 280px;
+        font-size: 12px;
+        margin: 0 auto 110px;
+    }
+}

@@ -13,3 +13,9 @@
         font-size: 13px;
     }
 }
+
+@media screen and (max-width: 680px) {
+    .header__button-text {
+        font-size: 10px;
+    }
+}

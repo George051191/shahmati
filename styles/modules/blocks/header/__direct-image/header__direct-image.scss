@@ -3,3 +3,9 @@
     height: 12px;
     align-self: center;
 }
+
+@media screen and (max-width: 680px) {
+    .header__direct-image {
+        display: none;
+    }
+}

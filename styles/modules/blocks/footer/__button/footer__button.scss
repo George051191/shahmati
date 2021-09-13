@@ -1,0 +1,24 @@
+.footer__button {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: $object-color;
+    border-radius: 8px;
+    width: 218px;
+    height: 48px;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.footer__button:hover {
+    background-color: rgba(6, 108, 76, 1);
+}
+
+@media screen and (max-width: 510px) {
+    .footer__button {
+        width: 140px;
+        height: 30px;
+        margin-bottom: 40px;
+    }
+}

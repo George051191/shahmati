@@ -1,5 +1,5 @@
 .header__button {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     border: none;
@@ -18,5 +18,18 @@
     .header__button {
         width: 184px;
         height: 44px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .header__button {
+        width: 140px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .header__button {
+        margin-left: 114px;
     }
 }
