@@ -4,3 +4,4 @@
 
 [МАКЕТ В FIGMA](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings?node-id=2%3A637)
 
+[ссылка на сайт](https://george051191.github.io/shahmati/index.html)
