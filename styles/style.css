@@ -11,7 +11,7 @@
   cursor: pointer;
   width: 38px;
   height: 54px;
-  background-image: url(../../../../images/Group340.svg);
+  background-image: url("../../../../../images/Group340.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -20,7 +20,7 @@
   .header__logo {
     width: 26px;
     height: 36px;
-    background-image: url(../../../../../images/Grouplittle340.svg);
+    background-image: url("../../../../../images/Grouplittle340.svg");
   }
 }
 .header__exit-button {
@@ -373,7 +373,7 @@
   }
 }
 .intro__circles {
-  background-image: url(../../../../images/Group332.svg);
+  background-image: url("../../../../images/Group332.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 480px;
@@ -382,7 +382,7 @@
 
 @media screen and (max-width: 1170px) {
   .intro__circles {
-    background-image: url(../../../../../images/circlesmedia.svg);
+    background-image: url("../../../../../images/circlesmedia.svg");
     width: 130px;
     height: 520px;
     margin-top: 226px;
@@ -518,9 +518,6 @@
 }
 .team__slider-item {
   list-style: none;
-  /* width: 320px;
-  min-height: 320px;
-  width: 100%;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -590,14 +587,14 @@
   height: 8px;
   margin-right: 10px;
   background-color: transparent;
-  background-image: url(../../../../../images/dot.svg);
+  background-image: url("../../../../../images/dot.svg");
   background-position: center;
   background-repeat: no-repeat;
   border: none;
 }
 
 .team__dot_active {
-  background-image: url(../../../../images/Ellipse16.svg);
+  background-image: url("../../../../images/Ellipse16.svg");
   width: 8px;
   height: 8px;
   background-position: center;
@@ -679,7 +676,7 @@
   }
 }
 .wish__circle {
-  background-image: url(../../../../images/Groupcircle1.svg);
+  background-image: url("../../../../images/Groupcircle1.svg");
   background-position: center;
   background-repeat: no-repeat;
   height: 440px;
@@ -688,20 +685,20 @@
 
 @media screen and (max-width: 1439px) {
   .wish__circle {
-    background-image: url(../../../../../images/circletwo.svg);
+    background-image: url("../../../../../images/circletwo.svg");
     height: 360px;
     width: 180px;
   }
 }
 @media screen and (max-width: 760px) {
   .wish__circle {
-    background-image: url(../../../../../images/wishnewcircle.svg);
+    background-image: url("../../../../../images/wishnewcircle.svg");
     width: 280px;
     height: 140px;
   }
 }
 .wish__circle-piece {
-  background-image: url(../../../../images/Vectorcircle.svg);
+  background-image: url("../../../../images/Vectorcircle.svg");
   background-position: center;
   background-repeat: no-repeat;
   width: 218px;
@@ -836,22 +833,8 @@
   padding: 0;
   margin: 0;
   justify-content: space-between;
-  /* max-width: 1120px;
-  min-width: 280px;*/
 }
 
-/*@media screen and (max-width: 767px) {
-    .game__slider-items {
-        /* margin-left: 0;
-        max-width: 590px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .game__slider-items {
-        /* width: 280px;
-    }
-}*/
 .game__figures {
   width: 1180px;
   display: flex;
@@ -898,14 +881,14 @@
   height: 8px;
   margin-right: 10px;
   background-color: transparent;
-  background-image: url(../../../../../images/dot.svg);
+  background-image: url("../../../../../images/dot.svg");
   background-position: center;
   background-repeat: no-repeat;
   border: none;
 }
 
 .game__dot_active {
-  background-image: url(../../../../images/Ellipse16.svg);
+  background-image: url("../../../../images/Ellipse16.svg");
   width: 8px;
   height: 8px;
   background-position: center;
@@ -913,14 +896,14 @@
 }
 
 .game__circle {
-  background-image: url(../../../../../images/gamecircle.svg);
+  background-image: url("../../../../../images/gamecircle.svg");
   width: 440px;
   height: 220px;
 }
 
 @media screen and (max-width: 1250px) {
   .game__circle {
-    background-image: url(../../../../../images/thegamecircle.svg);
+    background-image: url("../../../../../images/thegamecircle.svg");
     background-position: unset;
     background-repeat: no-repeat;
   }
@@ -936,7 +919,7 @@
   }
 }
 .game__chests {
-  background-image: url(../../../../../images/gamechests.svg);
+  background-image: url("../../../../../images/gamechests.svg");
   width: 416px;
   height: 104px;
 }
@@ -970,7 +953,7 @@
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-  background-image: url(../../../../images/Group340.svg);
+  background-image: url("../../../../images/Group340.svg");
   margin-top: 80px;
   margin-bottom: 60px;
 }
@@ -1323,7 +1306,7 @@
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-  background-image: url(../../../../images/Group340.svg);
+  background-image: url("../../../../images/Group340.svg");
   margin-bottom: 50px;
 }
 
@@ -1331,7 +1314,7 @@
   .popup__logo {
     width: 26px;
     height: 36px;
-    background-image: url(../../../../../images/smallchest.svg);
+    background-image: url("../../../../../images/smallchest.svg");
     margin-bottom: 40px;
   }
 }
