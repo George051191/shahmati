@@ -8,6 +8,12 @@
     margin-bottom: 50px;
 }
 
+@media screen and (max-height: 500px) {
+    .popup__logo {
+        margin-bottom: 0;
+    }
+}
+
 @media screen and (max-width: 520px) {
     .popup__logo {
         width: 26px;
