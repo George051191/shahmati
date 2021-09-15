@@ -11,7 +11,7 @@
   cursor: pointer;
   width: 38px;
   height: 54px;
-  background-image: url("../../../../../images/Group340.svg");
+  background-image: url(../images/Group340.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -20,7 +20,7 @@
   .header__logo {
     width: 26px;
     height: 36px;
-    background-image: url("../../../../../images/Grouplittle340.svg");
+    background-image: url(../images/Grouplittle340.svg);
   }
 }
 .header__exit-button {
@@ -373,7 +373,7 @@
   }
 }
 .intro__circles {
-  background-image: url("../../../../images/Group332.svg");
+  background-image: url(../images/Group332.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 480px;
@@ -382,7 +382,7 @@
 
 @media screen and (max-width: 1170px) {
   .intro__circles {
-    background-image: url("../../../../../images/circlesmedia.svg");
+    background-image: url(../images/circlesmedia.svg);
     width: 130px;
     height: 520px;
     margin-top: 226px;
@@ -498,24 +498,8 @@
   padding: 0;
   margin: 0;
   justify-content: space-between;
-  /*max-width: 1120px;*/
 }
 
-@media screen and (max-width: 1080px) {
-  .team__slider-items {
-    /* max-width: 1000px;*/
-  }
-}
-@media screen and (max-width: 767px) {
-  .team__slider-items {
-    /* max-width: 590px;*/
-  }
-}
-@media screen and (max-width: 600px) {
-  .team__slider-items {
-    /* width: 280px;*/
-  }
-}
 .team__slider-item {
   list-style: none;
   display: flex;
@@ -587,14 +571,14 @@
   height: 8px;
   margin-right: 10px;
   background-color: transparent;
-  background-image: url("../../../../../images/dot.svg");
+  background-image: url(../images/dot.svg);
   background-position: center;
   background-repeat: no-repeat;
   border: none;
 }
 
 .team__dot_active {
-  background-image: url("../../../../images/Ellipse16.svg");
+  background-image: url(../images/Ellipse16.svg);
   width: 8px;
   height: 8px;
   background-position: center;
@@ -676,7 +660,7 @@
   }
 }
 .wish__circle {
-  background-image: url("../../../../images/Groupcircle1.svg");
+  background-image: url(../images/Groupcircle1.svg);
   background-position: center;
   background-repeat: no-repeat;
   height: 440px;
@@ -685,20 +669,20 @@
 
 @media screen and (max-width: 1439px) {
   .wish__circle {
-    background-image: url("../../../../../images/circletwo.svg");
+    background-image: url(../images/circletwo.svg);
     height: 360px;
     width: 180px;
   }
 }
 @media screen and (max-width: 760px) {
   .wish__circle {
-    background-image: url("../../../../../images/wishnewcircle.svg");
+    background-image: url(../images/wishnewcircle.svg);
     width: 280px;
     height: 140px;
   }
 }
 .wish__circle-piece {
-  background-image: url(../../../images/Vectorcircle.svg);
+  background-image: url(../images/Vectorcircle.svg);
   background-position: center;
   background-repeat: no-repeat;
   width: 218px;
@@ -1306,7 +1290,7 @@
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-  background-image: url("../../../../images/Group340.svg");
+  background-image: url(../images/Group340.svg);
   margin-bottom: 50px;
 }
 
@@ -1314,7 +1298,7 @@
   .popup__logo {
     width: 26px;
     height: 36px;
-    background-image: url("../../../../../images/smallchest.svg");
+    background-image: url(../images/smallchest.svg);
     margin-bottom: 40px;
   }
 }

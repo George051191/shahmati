@@ -1,5 +1,5 @@
 .wish__circle {
-    background-image: url('../../../../images/Groupcircle1.svg');
+    background-image: url(../images/Groupcircle1.svg);
     background-position: center;
     background-repeat: no-repeat;
     height: 440px;
@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1439px) {
     .wish__circle {
-        background-image: url('../../../../../images/circletwo.svg');
+        background-image: url(../images/circletwo.svg);
         height: 360px;
         width: 180px;
     }
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 760px) {
     .wish__circle {
-        background-image: url('../../../../../images/wishnewcircle.svg');
+        background-image: url(../images/wishnewcircle.svg);
         width: 280px;
         height: 140px;
     }
