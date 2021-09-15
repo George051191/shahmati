@@ -1,5 +1,5 @@
-.header__button {
-    display: none;
+.action-button {
+    display: flex;
     align-items: center;
     justify-content: center;
     border: none;
@@ -17,28 +17,6 @@
     color: $text-color;
 }
 
-.header__button:hover {
+.action-button:hover {
     background-color: rgba(6, 108, 76, 1);
-}
-
-@media screen and (max-width: 1065px) {
-    .header__button {
-        width: 184px;
-        height: 44px;
-        font-size: 13px;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    .header__button {
-        width: 140px;
-        height: 30px;
-        font-size: 10px;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .header__button {
-        margin-left: 114px;
-    }
 }

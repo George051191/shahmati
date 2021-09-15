@@ -2,19 +2,22 @@
 @import "../vendor/font.css";
 @import "./modules/variables.scss";
 
+/*button*/
+
+@import "./modules/blocks/action-button/action-button.scss";
+@import "./modules/blocks/action-button/_type/action-button_type_header.scss";
+@import "./modules/blocks/action-button/_type/action-button_type_footer.scss";
+@import "./modules/blocks/action-button/_type/action-button_type_popup.scss";
+
 /*header*/
 
 @import "./modules/blocks/header/header.scss";
 @import "./modules/blocks/header/__logo/header__logo.scss";
-@import "./modules/blocks/header/__exit-button/header__exit-button.scss";
-@import "./modules/blocks/header/__exit-button/_visible/header__exit-button_visible.scss";
 @import "./modules/blocks/header/__links/header__links.scss";
 @import "./modules/blocks/header/__link/header__link.scss";
 @import "./modules/blocks/header/__direct/header__direct.scss";
 @import "./modules/blocks/header/__direct-image/header__direct-image.scss";
 @import "./modules/blocks/header/__conteiner/header__conteiner.scss";
-@import "./modules/blocks/header/__button/header__button.scss";
-@import "./modules/blocks/header/__button/_visible/header__button_visible.scss";
 
 /*content*/
 
@@ -86,10 +89,6 @@
 @import "./modules/blocks/footer/footer.scss";
 @import "./modules/blocks/footer/__logo/footer__logo.scss";
 @import "./modules/blocks/footer/__copyright/footer__copyright.scss";
-@import "./modules/blocks/footer/__button/footer__button.scss";
-@import "./modules/blocks/footer/__button/_visible/footer__button_visible.scss";
-@import "./modules/blocks/footer/__exit-button/footer__exit-button.scss";
-@import "./modules/blocks/footer/__exit-button/_visible/footer__exit-button_visible.scss";
 @import "./modules/blocks/footer/__advertisement/footer__advertisement.scss";
 
 /*popup*/
@@ -102,7 +101,6 @@
 @import "./modules/blocks/popup/__logo/popup__logo.scss";
 @import "./modules/blocks/popup/__element/popup__element.scss";
 @import "./modules/blocks/popup/__conteiner/popup__conteiner.scss";
-@import "./modules/blocks/popup/__button/popup__button.scss";
 @import "./modules/blocks/popup/__user-name/popup__user-name.scss";
 @import "./modules/blocks/popup/__user-mail/popup__user-mail.scss";
 @import "./modules/blocks/popup/_opened/popup_opened.scss";

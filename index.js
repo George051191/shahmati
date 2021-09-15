@@ -1,30 +1,23 @@
-const headButton = document.querySelector('.header__button');
-const footerButton = document.querySelector('.footer__button');
-const exitButtonHeader = document.querySelector('.header__exit-button');
-const exitButtonFooter = document.querySelector('.footer__exit-button')
+const actionButtons = document.querySelectorAll('.action-button');
 const regPopup = document.querySelector('.popup');
 const info = document.querySelector('.popup__user-info');
+//общий слушатель на все зеленые кнопки 
+actionButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+        regPopup.classList.add('popup_opened');
+        document.querySelector('.action-button_type_popup').textContent = 'Зарегестрироваться';
+    });
+})
 
-headButton.addEventListener('click', function() {
-    regPopup.classList.add('popup_opened');
-});
-
-footerButton.addEventListener('click', function() {
-    regPopup.classList.add('popup_opened');
-});
-
+//закрытие попапа
 regPopup.addEventListener('submit', function(evt) {
     evt.preventDefault();
     regPopup.classList.remove('popup_opened');
-    headButton.classList.remove('header__button_visible');
-    exitButtonHeader.classList.add('header__exit-button_visible');
-    footerButton.classList.remove('footer__button_visible')
-    exitButtonFooter.classList.add('footer__exit-button_visible');
+    actionButtons.forEach(function(item) {
+        item.textContent = 'Выйти';
+    });
     info.reset();
 });
-
-
-
 
 //Свайпер для блока team
 const swiper = new Swiper('.team__slider', {

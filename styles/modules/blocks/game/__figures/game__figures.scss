@@ -3,6 +3,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-right: 55px;
+}
+
+@media screen and (max-width: 1439px) {
+    .game__figures {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 1250px) {

@@ -11,6 +11,12 @@
     margin-top: 0;
 }
 
+@media screen and (max-height: 500px) {
+    .popup__name {
+        margin-bottom: 0;
+    }
+}
+
 @media screen and (max-width: 520px) {
     .popup__name {
         font-size: 30px;
