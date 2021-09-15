@@ -1,12 +1,12 @@
 .game__circle {
-    background-image: url('../../../../../images/gamecircle.svg');
+    background-image: url(../images/gamecircle.svg);
     width: 440px;
     height: 220px;
 }
 
 @media screen and (max-width: 1250px) {
     .game__circle {
-        background-image: url('../../../../../images/thegamecircle.svg');
+        background-image: url(../images/thegamecircle.svg);
         background-position: unset;
         background-repeat: no-repeat;
     }

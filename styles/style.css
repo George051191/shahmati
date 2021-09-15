@@ -865,14 +865,14 @@
   height: 8px;
   margin-right: 10px;
   background-color: transparent;
-  background-image: url("../../../../../images/dot.svg");
+  background-image: url(../images/dot.svg);
   background-position: center;
   background-repeat: no-repeat;
   border: none;
 }
 
 .game__dot_active {
-  background-image: url("../../../../images/Ellipse16.svg");
+  background-image: url(../images/Ellipse16.svg);
   width: 8px;
   height: 8px;
   background-position: center;
@@ -880,14 +880,14 @@
 }
 
 .game__circle {
-  background-image: url("../../../../../images/gamecircle.svg");
+  background-image: url(../images/gamecircle.svg);
   width: 440px;
   height: 220px;
 }
 
 @media screen and (max-width: 1250px) {
   .game__circle {
-    background-image: url("../../../../../images/thegamecircle.svg");
+    background-image: url(../images/thegamecircle.svg);
     background-position: unset;
     background-repeat: no-repeat;
   }
@@ -903,7 +903,7 @@
   }
 }
 .game__chests {
-  background-image: url("../../../../../images/gamechests.svg");
+  background-image: url(../images/gamechests.svg);
   width: 416px;
   height: 104px;
 }
@@ -937,7 +937,7 @@
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-  background-image: url("../../../../images/Group340.svg");
+  background-image: url(../images/Group340.svg);
   margin-top: 80px;
   margin-bottom: 60px;
 }
