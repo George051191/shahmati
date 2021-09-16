@@ -5,6 +5,12 @@
     margin-bottom: 40px;
 }
 
+@media screen and (max-width: 776px) {
+    .wish__question {
+        width: 475px;
+    }
+}
+
 @media screen and (max-width: 688px) {
     .wish__question {
         margin: 20px;

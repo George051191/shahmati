@@ -18,3 +18,9 @@
         font-size: 10px;
     }
 }
+
+@media screen and (max-height: 320px) {
+    .action-button_type_popup {
+        bottom: 120px;
+    }
+}

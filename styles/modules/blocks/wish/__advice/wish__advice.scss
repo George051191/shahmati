@@ -5,6 +5,12 @@
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 776px) {
+    .wish__advice {
+        width: 470px;
+    }
+}
+
 @media screen and (max-width: 688px) {
     .wish__advice {
         margin: 0 auto;

@@ -33,15 +33,15 @@
 /*intro*/
 
 @import "./modules/blocks/intro/intro.scss";
+@import "./modules/blocks/intro/__conteiner/intro__conteiner.scss";
+@import "./modules/blocks/intro/__circles/intro__circles.scss";
 @import "./modules/blocks/intro/__small-circles/intro__small-circles.scss";
 @import "./modules/blocks/intro/__new-circles/intro__new-circles.scss";
-@import "./modules/blocks/intro/__paragraph/intro__paragraph.scss";
 @import "./modules/blocks/intro/__name/intro__name.scss";
+@import "./modules/blocks/intro/__paragraph/intro__paragraph.scss";
 @import "./modules/blocks/intro/__label/intro__label.scss";
 @import "./modules/blocks/intro/__label-text/intro__label-text.scss";
 @import "./modules/blocks/intro/__image/intro__image.scss";
-@import "./modules/blocks/intro/__conteiner/intro__conteiner.scss";
-@import "./modules/blocks/intro/__circles/intro__circles.scss";
 
 /*team*/
 

@@ -74,6 +74,11 @@
     font-size: 10px;
   }
 }
+@media screen and (max-height: 320px) {
+  .action-button_type_popup {
+    bottom: 120px;
+  }
+}
 /*header*/
 .header {
   display: flex;
@@ -225,6 +230,46 @@
     display: block;
   }
 }
+.intro__conteiner {
+  display: flex;
+  margin-left: 160px;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 814px) {
+  .intro__conteiner {
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .intro__conteiner {
+    margin: 50px 0 0 0;
+  }
+}
+.intro__circles {
+  background-image: url(../images/Group332.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 480px;
+  height: 640px;
+}
+
+@media screen and (max-width: 1170px) {
+  .intro__circles {
+    background-image: url(../images/circlesmedia.svg);
+    width: 130px;
+    height: 520px;
+    margin-top: 226px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .intro__circles {
+    display: none;
+  }
+}
 @media screen and (max-width: 750px) {
   .intro__small-circles {
     display: flex;
@@ -242,24 +287,6 @@
     margin-right: 20px;
   }
 }
-.intro__paragraph {
-  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 130%;
-  color: white;
-  width: 500px;
-  margin-bottom: 182px;
-}
-
-@media screen and (max-width: 550px) {
-  .intro__paragraph {
-    width: 280px;
-    font-size: 12px;
-    margin: 0 auto 110px;
-  }
-}
 .intro__name {
   font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
@@ -272,7 +299,7 @@
   margin-bottom: 40px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 570px) {
   .intro__name {
     width: 280px;
     font-style: normal;
@@ -280,6 +307,24 @@
     font-size: 40px;
     line-height: 90%;
     margin: 50px auto 20px;
+  }
+}
+.intro__paragraph {
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: white;
+  width: 500px;
+  margin-bottom: 182px;
+}
+
+@media screen and (max-width: 570px) {
+  .intro__paragraph {
+    width: 280px;
+    font-size: 12px;
+    margin: 0 auto 110px;
   }
 }
 .intro__label {
@@ -334,46 +379,6 @@
     width: 280px;
     height: 70px;
     margin: 0 20px 20px 20px;
-  }
-}
-.intro__conteiner {
-  display: flex;
-  margin-left: 160px;
-  flex-direction: column;
-  margin-top: 70px;
-}
-
-@media screen and (max-width: 814px) {
-  .intro__conteiner {
-    margin-top: 60px;
-    margin-left: 50px;
-  }
-}
-@media screen and (max-width: 550px) {
-  .intro__conteiner {
-    margin: 50px 0 0 0;
-  }
-}
-.intro__circles {
-  background-image: url(../images/Group332.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 480px;
-  height: 640px;
-}
-
-@media screen and (max-width: 1170px) {
-  .intro__circles {
-    background-image: url(../images/circlesmedia.svg);
-    width: 130px;
-    height: 520px;
-    margin-top: 226px;
-    margin-bottom: 50px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .intro__circles {
-    display: none;
   }
 }
 /*team*/
@@ -595,6 +600,11 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 776px) {
+  .wish__question {
+    width: 475px;
+  }
+}
 @media screen and (max-width: 688px) {
   .wish__question {
     margin: 20px;
@@ -688,6 +698,11 @@
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 776px) {
+  .wish__advice {
+    width: 470px;
+  }
+}
 @media screen and (max-width: 688px) {
   .wish__advice {
     margin: 0 auto;
@@ -712,7 +727,7 @@
   font-size: 70px;
   line-height: 90%;
   color: white;
-  width: 1120px;
+  max-width: 1120px;
   margin-top: 80px;
   margin-bottom: 40px;
 }
@@ -722,7 +737,7 @@
     align-self: flex-start;
     margin-left: 50px;
     margin-top: 50px;
-    width: 600px;
+    max-width: 600px;
   }
 }
 @media screen and (max-width: 655px) {
@@ -957,7 +972,7 @@
   }
 }
 .footer__advertisement {
-  width: 500px;
+  max-width: 500px;
   font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -990,7 +1005,6 @@
   opacity: 1;
   display: flex;
   visibility: hidden;
-  /* transition: visibility .5s linear, opacity .5s linear;*/
 }
 
 @media screen and (max-width: 768px) {
