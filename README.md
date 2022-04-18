@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/85257895/163813591-77e21548-d4ec-4081-9c20-d6d1b46a5ebd.png)
+<h1 align="center"><img src="./images/game2.png" width="100%" alt="место фото"></h1>
 
 
 # Проект лендинга для шахматного клуба
