@@ -1,0 +1,13 @@
+.wish__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 160px;
+}
+
+@media screen and (max-width: 465px) {
+    .wish__conteiner {
+        margin: 0;
+    }
+}

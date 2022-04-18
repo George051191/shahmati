@@ -1,0 +1,17 @@
+.intro__name {
+    @include main-text;
+    width: 500px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 570px) {
+    .intro__name {
+        width: 280px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 90%;
+        margin: 50px auto 20px;
+    }
+}

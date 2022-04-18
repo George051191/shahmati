@@ -1,0 +1,26 @@
+.action-button_type_popup {
+    position: absolute;
+    bottom: 120px;
+    left: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .action-button_type_popup {
+        bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .action-button_type_popup {
+        bottom: 120px;
+        width: 140px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-height: 320px) {
+    .action-button_type_popup {
+        bottom: 120px;
+    }
+}

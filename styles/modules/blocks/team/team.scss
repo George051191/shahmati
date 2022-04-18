@@ -1,0 +1,13 @@
+.team {
+    width: 100%;
+    background-color: $color-secondary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 595px) {
+    .team {
+        padding-bottom: 40px;
+    }
+}

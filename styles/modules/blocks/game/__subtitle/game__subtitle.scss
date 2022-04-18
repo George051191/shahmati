@@ -1,0 +1,28 @@
+.game__subtitle {
+    @include secondary-text;
+    width: 500px;
+    margin-top: 0;
+    margin-bottom: 110px;
+    margin-left: 160px;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 1439px) {
+    .game__subtitle {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .game__subtitle {
+        margin-bottom: 140px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .game__subtitle {
+        font-size: 12px;
+        margin: 0 20px 60px 20px;
+        width: 280px;
+    }
+}

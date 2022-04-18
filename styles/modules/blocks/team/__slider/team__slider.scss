@@ -1,0 +1,32 @@
+.team__slider {
+    max-width: 1120px;
+    min-width: 280px;
+    width: 100%;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1155px) {
+    .team__slider {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .team__slider {
+        max-width: 668px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .team__slider {
+        max-width: 590px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .team__slider {
+        width: 280px;
+        margin: 0 auto;
+    }
+}

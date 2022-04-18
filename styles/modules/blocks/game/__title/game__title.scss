@@ -1,0 +1,23 @@
+.game__title {
+    @include main-text;
+    max-width: 1120px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+    .game__title {
+        align-self: flex-start;
+        margin-left: 50px;
+        margin-top: 50px;
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .game__title {
+        font-size: 40px;
+        margin: 20px;
+        width: 280px;
+    }
+}

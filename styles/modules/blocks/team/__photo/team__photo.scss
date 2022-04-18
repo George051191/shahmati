@@ -1,0 +1,13 @@
+.team__photo {
+    border-radius: 15px;
+    margin-bottom: 30px;
+    width: 320px;
+    height: 320px;
+}
+
+@media screen and (max-width: 767px) {
+    .team__photo {
+        width: 280px;
+        height: 280px;
+    }
+}

@@ -1,0 +1,24 @@
+.popup__conteiner {
+    display: flex;
+    width: 500px;
+    align-self: flex-start;
+    margin-top: 120px;
+}
+
+@media screen and (max-width: 786px) {
+    .popup__conteiner {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .popup__conteiner {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .popup__conteiner {
+        margin-top: 120px;
+    }
+}

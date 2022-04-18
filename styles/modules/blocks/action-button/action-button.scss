@@ -1,0 +1,22 @@
+.action-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: $object-color;
+    border-radius: 8px;
+    width: 218px;
+    height: 48px;
+    cursor: pointer;
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
+}
+
+.action-button:hover {
+    background-color: rgba(6, 108, 76, 1);
+}

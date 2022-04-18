@@ -1,0 +1,85 @@
+.popup__user-name {
+    margin-bottom: 20px;
+    border: none;
+    width: 100%;
+    min-height: 48px;
+    box-sizing: border-box;
+    background: #1A1A1A;
+    border-radius: 8px;
+    padding-left: 28px;
+    cursor: pointer;
+    color: $text-color;
+}
+
+.popup__user-name:hover {
+    background: #1A1A1A99;
+}
+
+.popup__user-name:focus {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #5036E6;
+    border-radius: 8px;
+    outline: none;
+}
+
+.popup__user-name::-webkit-input-placeholder {
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
+    text-align: left;
+    min-height: 48px;
+}
+
+.popup__user-name::-moz-placeholder {
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
+    min-height: 48px;
+}
+
+.popup__user-name::-ms-input-placeholder {
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
+    min-height: 48px;
+}
+
+.popup__user-name::placeholder {
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
+    min-height: 48px;
+}
+
+.popup__user-name:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.popup__user-name:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.popup__user-name:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+.popup__user-name:focus::placeholder {
+    color: transparent;
+}
