@@ -1,0 +1,23 @@
+.intro__circles {
+    background-image: url(../images/Group332.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 480px;
+    height: 640px;
+}
+
+@media screen and (max-width: 1170px) {
+    .intro__circles {
+        background-image: url(../images/circlesmedia.svg);
+        width: 130px;
+        height: 520px;
+        margin-top: 226px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .intro__circles {
+        display: none;
+    }
+}

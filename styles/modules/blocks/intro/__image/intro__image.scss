@@ -1,0 +1,19 @@
+.intro__image {
+    width: 416px;
+    height: 104px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 814px) {
+    .intro__image {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .intro__image {
+        width: 280px;
+        height: 70px;
+        margin: 0 20px 20px 20px;
+    }
+}

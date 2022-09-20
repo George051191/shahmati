@@ -1,0 +1,10 @@
+.intro__new-circles {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .intro__new-circles {
+        display: block;
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,84 @@
+.popup__user-mail {
+    border: none;
+    width: 100%;
+    min-height: 48px;
+    box-sizing: border-box;
+    background: #1A1A1A;
+    border-radius: 8px;
+    padding-left: 28px;
+    cursor: pointer;
+    color: $text-color;
+}
+
+.popup__user-mail:hover {
+    background: #1A1A1A99;
+}
+
+.popup__user-mail:focus {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #5036E6;
+    border-radius: 8px;
+    outline: none;
+}
+
+.popup__user-mail::-webkit-input-placeholder {
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
+    text-align: left;
+    min-height: 48px;
+}
+
+.popup__user-mail::-moz-placeholder {
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
+    min-height: 48px;
+}
+
+.popup__user-mail::-ms-input-placeholder {
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
+    min-height: 48px;
+}
+
+.popup__user-mail::placeholder {
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $text-color;
+    min-height: 48px;
+}
+
+.popup__user-mail:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.popup__user-mail:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.popup__user-mail:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+.popup__user-mail:focus::placeholder {
+    color: transparent;
+}

@@ -1,0 +1,20 @@
+.game__chests {
+    background-image: url(../images/gamechests.svg);
+    width: 416px;
+    height: 104px;
+}
+
+@media screen and (max-width: 1250px) {
+    .game__chests {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .game__chests {
+        width: 280px;
+        height: 70px;
+        margin: 0 20px 20px 20px;
+        align-self: center;
+    }
+}

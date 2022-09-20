@@ -1,0 +1,26 @@
+.popup__name {
+    font-family: 'Noto Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 90%;
+    text-align: center;
+    color: $text-color;
+    width: 100%;
+    margin-bottom: 78px;
+    margin-top: 0;
+}
+
+@media screen and (max-height: 500px) {
+    .popup__name {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .popup__name {
+        font-size: 30px;
+        width: 280px;
+        margin-bottom: 40px;
+    }
+}
